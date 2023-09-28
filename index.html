@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Music Visualizer</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+
+  <body>
+    <div id="overlay">
+      <button id="startButton">Go</button>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.134.0/build/three.module.js",
+          "OrbitControls": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/controls/OrbitControls.js",
+          "Stats": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/libs/stats.module.js",
+          "RGBELoader": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/loaders/RGBELoader.js",
+          "GUI": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/libs/dat.gui.module.js",
+          "GLTFLoader": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/loaders/GLTFLoader.js",
+          "OBJLoader": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/loaders/OBJLoader.js",
+          "RoughnessMipmapper": "https://cdn.jsdelivr.net/npm/three@0.134.0/examples/jsm/utils/RoughnessMipmapper.js"
+        }
+      }
+    </script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
